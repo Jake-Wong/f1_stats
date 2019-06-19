@@ -4,3 +4,6 @@ This is just a small summer project to allow me to teach myself and experiment w
 
 ### Race results
 The program can compare the race results between two selected drivers for a given season. For example, if I was to compare Max Verstappen with Charles Leclerc the cmp_race_results() function would return "max_verstappen 5-2 leclerc" along with a list of their finishing positions repectively. (as of the 2019 Canadian GP)
+
+### Qualifying results
+Similar to race results, the qualifying results between two drivers for a given season can also be compared to return a score. The cmp_qualy_results() function operates in a way similar to its race result counterpart meaning that it would return a string "norris 4-3 sainz" with a list of their qualifying positions. (as of the 2019 Canadian GP)
